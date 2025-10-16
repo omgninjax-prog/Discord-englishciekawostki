@@ -331,7 +331,7 @@ def generate_365_english_facts():
         i += 1
         if i > 2000:
             break
-    while len(facts) < 365:
+    while len(facts) < 1:
         facts.append("Fun fact: keep exploring English every day!")
     return facts
 
